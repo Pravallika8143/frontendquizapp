@@ -14,6 +14,9 @@ function AuthTab() {
                 window.localStorage.getItem("token") && 
                 (
                  <>
+                 <li>
+                   <Link to="/upload" className='text-decoration-none text-dark' style={{marginTop:"10px"}}>Upload Profile</Link>
+                 </li>
                    <li>
                     <button className='btn btn-primary' onClick={()=>{logout()}}>Logout</button>
                    </li> 

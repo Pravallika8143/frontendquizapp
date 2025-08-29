@@ -9,6 +9,7 @@ import {
 import Quiz from './Quiz.jsx';
 import Login from './User/Login.jsx';
 import SignUp from './User/SignUp.jsx';
+import UploadProfile from './User/UploadProfile.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:"/signup",
         element:<SignUp></SignUp>
+      },
+      {
+        path:"/upload",
+        element:<UploadProfile></UploadProfile>
       }
     ]
   },
